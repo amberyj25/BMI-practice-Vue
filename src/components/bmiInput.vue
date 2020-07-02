@@ -22,12 +22,12 @@ export default{
   },
   methods:{
     submit(){
+      if(this.height == "" || this.weight == ""){return};
       this.$emit("submitData",this.height,this.weight);
       this.height= "";
       this.weight= "";
     }
   }
-
 }
 </script>
 <style scoped>

@@ -2,8 +2,8 @@
   <li>
     <span>{{bmiRange}}</span>
     <span>BMI : {{bmi}}</span>
-    <span>height : {{height}} cm</span>
-    <span>weight : {{weight}} kg</span>
+    <span>身高 : {{height}} cm</span>
+    <span>體重 : {{weight}} kg</span>
   </li>
 </template>
 <script>
