@@ -26,7 +26,12 @@ export default{
   },
   data(){
     return{
-      datas:[]
+      datas:[
+        {
+          "height":163,
+          "weight":58
+        }
+      ]
     }
   },
   methods:{

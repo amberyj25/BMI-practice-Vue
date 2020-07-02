@@ -40,5 +40,6 @@ li{
   margin: 0 auto 25px auto;
   background-color: yellow;
   padding: 15px 25px;
+  border-radius: 15px;
 }
 </style>
