@@ -67,6 +67,7 @@ main h1{
 }
 main ul {
   margin:0;
+  padding:0;
 }
 footer{
   background-color:#B2EBF2;
