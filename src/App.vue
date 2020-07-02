@@ -1,15 +1,17 @@
 <template>
-<div>
-<bmiInput @submitData="data"></bmiInput>
-<main>
-<h1>BMI記錄</h1>
-<ul>
-  <bmiResult v-for="item in datas" :height="item.height" :weight="item.weight"></bmiResult>
-</ul>
-</main>
-<footer>
-<bmiLogo></bmiLogo>
-</footer>
+<div id="rootDiv">
+  <header>
+    <bmiInput @submitData="data"></bmiInput>
+  </header>
+    <main>
+      <h1>BMI記錄</h1>
+      <ul>
+        <bmiResult v-for="item in datas" :height="item.height" :weight="item.weight"></bmiResult>
+      </ul>
+    </main>
+  <footer>
+    <bmiLogo></bmiLogo>
+  </footer>
 </div>
 </template>
 <script>
@@ -47,6 +49,13 @@ export default{
 </script>
 
 <style scoped>
+header{
+  background-color:lightblue;
+  padding: 55px 0;
+}
+#rootDiv{
+  padding:0;
+}
 main{
   background-color: #f5f2f5;
   height: 380px;
@@ -61,5 +70,6 @@ main ul {
 }
 footer{
   background-color:#B2EBF2;
+  padding:25px 0 12px 0;
 }
 </style>

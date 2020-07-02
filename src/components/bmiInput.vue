@@ -1,5 +1,4 @@
 <template>
-<header class="header">
   <div class="header_content">
     <img src="../assets/bmi_logo.png" alt="bmiLogo" class="bmi_logo">
     <div class="bmi_input">
@@ -10,7 +9,6 @@
     </div>
       <button class="submit" @click="submit" >看結果</button>
   </div>
-</header>
 </template>
 
 <script>
@@ -33,10 +31,6 @@ export default{
 }
 </script>
 <style scoped>
-header{
-  background-color:lightblue;
-  padding: 55px 0;
-}
 .header_content{
   width:700px;
   display:flex;
@@ -52,7 +46,7 @@ header{
   padding: 2px 10px;
 }
 .bmi_input h2{
-  margin-bottom: 12px;
+  margin: 0 0 12px 0;
   color: blue;
   font-size: 20px;
 }
