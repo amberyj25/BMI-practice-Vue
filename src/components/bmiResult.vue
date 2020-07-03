@@ -4,6 +4,7 @@
     <span>BMI : {{bmi}}</span>
     <span>身高 : {{height}} cm</span>
     <span>體重 : {{weight}} kg</span>
+    <span>日期 : {{date}}</span>
   </li>
 </template>
 <script>
@@ -27,6 +28,11 @@ export default{
       }else{
         return "正常"
       }
+    },
+    date(){
+      let todayData = new Date();
+      let today = `${todayData.getMonth()+1}/${todayData.getDate()}`;
+      return today;
     }
   }
 }

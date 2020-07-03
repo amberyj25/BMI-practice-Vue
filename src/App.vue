@@ -30,8 +30,8 @@ export default{
     return{
       datas:[
         {
-          "height":163,
-          "weight":58
+          height:163,
+          weight:58,
         }
       ]
     }
