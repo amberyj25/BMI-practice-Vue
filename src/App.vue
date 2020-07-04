@@ -58,7 +58,8 @@ header{
 }
 main{
   background-color: #f5f2f5;
-  height: 380px;
+  min-height:350px;
+  padding: 20px 0;
 }
 main h1{
     margin:0;
@@ -68,6 +69,9 @@ main h1{
 main ul {
   margin:0;
   padding:0;
+}
+main ul li{
+  margin-bottom: 30px;
 }
 footer{
   background-color:#B2EBF2;
