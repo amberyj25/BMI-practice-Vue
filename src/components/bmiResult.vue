@@ -40,7 +40,7 @@ export default{
 
 <style scoped>
 li{
-  max-width: 690px;
+  width: 690px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto 25px auto;

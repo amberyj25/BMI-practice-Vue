@@ -32,7 +32,7 @@ export default{
 </script>
 <style scoped>
 .header_content{
-  max-width: 700px;
+  width: 700px;
   display:flex;
   justify-content:space-between;
   align-items: center;
