@@ -44,10 +44,11 @@ export default{
   border:2px solid yellow;
   border-radius: 10px;
   padding: 2px 10px;
+  outline:none;
 }
 .bmi_input h2{
-  margin: 0 0 12px 0;
-  color: blue;
+  margin: 8px 0;
+  color: #0288D1;
   font-size: 20px;
 }
 .submit{
@@ -58,5 +59,6 @@ export default{
   display: inline-block;
   text-align: center;
   line-height:120px;
+  outline:none;
 }
 </style>

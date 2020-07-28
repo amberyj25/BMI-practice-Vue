@@ -74,7 +74,7 @@ main ul li{
   margin-bottom: 30px;
 }
 footer{
-  background-color:#B2EBF2;
+  background-color:lightblue;
   padding:25px 0 12px 0;
 }
 </style>
